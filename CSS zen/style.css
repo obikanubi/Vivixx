@@ -1,0 +1,117 @@
+#css-zen-garden {
+  position: relative;
+  background-image: url(https://image.shutterstock.com/z/stock-photo-three-colorful-zen-stones-at-right-side-of-sand-background-110371337.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  box-sizing: border-box;
+}
+a:link {
+  font-family: cursive;
+  text-transform: uppercase;
+  color: #909cfb;
+}
+a:hover {
+  color: red;
+}
+
+a:visited {
+  color: grey;
+}
+
+.link {
+  color: #ffffff;
+  font-family: cursive;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 100px;
+  width: 100%;
+  background-color: #757474;
+  text-shadow: 2px 2px 2px #000000;
+  padding: 5px;
+}
+
+.preamble h3 {
+  border-width: 5px;
+  font-size: 25px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  letter-spacing: 10px;
+}
+.preamble {
+  float: left;
+  max-width: 80%;
+  margin-left: 40px;
+  line-height: 20px;
+  font-size: 18px;
+}
+.main {
+  clear: left;
+  float: left;
+  max-width: 80%;
+  margin-left: 40px;
+  font-size: 18px;
+}
+.main h3 {
+  border-width: 5px;
+  font-size: 25px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  letter-spacing: 5px;
+}
+
+#design-selection {
+  color: white;
+}
+
+#zen-intro header {
+    position: fixed;
+    top: 0;
+    height: 100px;
+    background-image: url(https://i.ytimg.com/vi/TIj2964YdRc/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+#zen-intro h1 {
+  padding-top: 20px;
+  font-family: helvetica;
+  font-size: 50px;
+  color: white;
+}
+
+#zen-intro h2 {
+  padding-top: 2px;
+  font-family: cursive;
+  color: white;
+}
+
+.zen-resources {
+  padding: 21px;
+  text-align: center;
+  background-image: url(https://i.ytimg.com/vi/TIj2964YdRc/maxresdefault.jpg);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 10px;
+}
+
+.design-selection {
+  background-image: url(https://i.ytimg.com/vi/TIj2964YdRc/maxresdefault.jpg);
+  float: right;
+  padding-top: 50px;
+  padding-left: 20px;
+  right: 0px;
+  top:0;
+  height: 100%;
+  max-width: 19%;
+  line-height: 30px;
+  font-size: 10px
+}
+
+.design-archives {
+  clear: left;
+}

@@ -1,0 +1,135 @@
+.link {
+  color: #11ae9a;
+}
+
+.link:hover {
+  color: blue;
+}
+
+#css-zen-garden {
+  font-family: Georgia;
+  background-color: #edf4f0;
+  line-height: 1.7;
+  font-size: 120%;
+
+}
+.page-wrapper {
+  position: relative;
+}
+a {
+  font-family: Arial;
+  text-transform: uppercase;
+  color: #7e9688;
+}
+#zen-intro h1 {
+  text-shadow: 1px 1px 1px #000000;
+  color: #dfddf5;
+  font-size: 50px;
+  font-family: cursive;
+}
+
+#zen-intro h2 {
+  font-family: cursive;
+  text-shadow: 1px 1px 1px #000000;
+  color: #dfddf5;
+}
+header {
+  background-image: url(http://1.bp.blogspot.com/-fntGOzNYtkI/WB0hnc0oJrI/AAAAAAAAE-s/VvVVEH-i1gcnei9Voz6V-USYuuMHVud-QCK4B/s1600/FINAL%2BFANTASY%2BXV%2BBROTHERHOOD%2BVOSTA%2B1080P%2BExtra%2BScenes%2BLuna%2B-%2BYouTube.MP4_snapshot_00.00_%255B2016.11.05_06.37.36%255D.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+.summary {
+  width: 80%;
+  margin: auto;
+  font-size: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.preamble {
+  font-family: inherit;
+  margin-left: 40px
+}
+
+.preamble p {
+  font-size: 17px;
+  color: #124811;
+  margin-top: 7px;
+}
+
+h3 {
+  text-shadow: 1px 1px 1px #000000;
+  color: #a9a1ff;
+  font-size: 20px;
+  text-transform:uppercase;
+  margin-top: 12px;
+}
+
+.main {
+  font-family: inherit;
+}
+
+.explanation {
+  border-style: groove;
+  border-width: 2px;
+  border-color: #ffffff;
+  background-color: #c5efdf;
+  padding: 10px;
+  margin-left: 40px
+}
+.explanation h3 {
+  color: #5b839a;
+}
+
+.explanation p {
+  font-size: 17px;
+  color: #124811;
+}
+
+.participation {
+  font-family: inherit;
+  margin-left: 40px
+}
+
+.participation p {
+  font-size: 17px;
+  color: #124811;
+}
+
+.benefits {
+  border-style: groove;
+  border-width: 2px;
+  border-color: #ffffff;
+  background-color: #c5efdf;
+  padding: 10px;
+  margin-left: 40px
+}
+
+.benefits p {
+  font-size: 17px;
+  color: #124811;
+}
+
+.requirements {
+  font-family: inherit;
+  margin-left: 40px
+}
+.requirements p {
+  font-size: 17px;
+  color: #124811;
+}
+
+.requirements p:last-child {
+  margin: 0;
+  background-image: url(http://1.bp.blogspot.com/-fntGOzNYtkI/WB0hnc0oJrI/AAAAAAAAE-s/VvVVEH-i1gcnei9Voz6V-USYuuMHVud-QCK4B/s1600/FINAL%2BFANTASY%2BXV%2BBROTHERHOOD%2BVOSTA%2B1080P%2BExtra%2BScenes%2BLuna%2B-%2BYouTube.MP4_snapshot_00.00_%255B2016.11.05_06.37.36%255D.jpg);
+  background-size: cover;
+  text-align: center;
+  text-shadow: 2px 2px 2px #000000;
+  color: #dfddf5;
+  font-size: 20px;
+  font-family: cursive;
+}
+.sidebar {
+  float:right;
+}

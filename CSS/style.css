@@ -1,0 +1,11 @@
+@keyframes color-change {
+  0% {
+    background-color: red
+  }
+  100% {
+    background-color:blue;
+  }
+  
+#box {
+  animation-name: color-change
+}

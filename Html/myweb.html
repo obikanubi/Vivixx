@@ -1,0 +1,53 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Test website</title>
+    <!--formating with css-->
+    <!--h1,p below is a selector-->
+    <!--.secondh1 alters h1 class-->
+    <!--id can only be used once a class can be used multiple times-->
+  <style>
+  h1{
+     color:#00ff00;
+     font-size: 50px;
+     text-align: center;
+  }
+  .secondh1{
+    text-align: center;
+    font-size: 40px;
+  }
+  #thisisid{
+    text-align: center;
+    color:blue;
+  }
+  </style>
+</head>
+<body>
+  <!--this style formating without css file any formatting here overwrites css-->
+  <!--put a class here if you want to have a different formatting for elements within the same selector-->
+  <h1 style="color:red">This should be red</h1>
+  <h1 class="secondh1">This is another header</h1>
+  <hr />
+  <p id="thisisid" class="secondh1">These lines are blue
+    <br /> still blue
+    <br /> yep still blue
+  </p>
+  <hr />
+  <ul>
+    <li>first item on the list</li>
+    <li>dibs on second line</li>
+  </ul>
+  <hr />
+  <table>
+    <tr>
+      <th> Red </th>
+      <th> Blue </th>
+    </tr>
+    <tr>
+      <td style="color:blue">oops</td>
+      <td style="color:red">oops again</td>
+    </tr>
+  </table>
+</body>
+
+</html>

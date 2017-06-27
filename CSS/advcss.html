@@ -1,0 +1,76 @@
+<!-- Animation is a css property
+
+animation example
+-->
+<!DOCTYPE html>
+<html>
+<!-- @keyframes  defines what the animation will do from where it starts to where it ends.
+#box adds the animation to the animate property of an element-->
+<!-- What is a keyframes they are the key points in animation and filmaking
+fps
+Animation properties (google it!)
+animation-name: list of @keyframe names
+animation-duration: time it takes
+animation-delay: when to begin
+animation-iteration-count: number of times it repeats
+animation-direction: reverse or alternate back-and-forwards
+animation-timing-function: the speed and feel of the animation
+animation-fill-mode: whether to hold the animation once it ends
+
+media queries & breakpoints
+media queries let you create css rules for specific device classes
+they are mostly used for breakpoints, which is where a site's layout changes
+depending on the user's screen size
+
+@media only screen and (min-width: 768px) {
+special rules for medium sized screens, for example tablets
+}
+
+Mobile first
+*Mobile devices are prioritzed
+*start optimizing design for mobile and adjust as it becomes larger
+
+CSS4 and the future
+*
+-->
+<head>
+  <title></title>
+  <style>
+
+   @keyframes color-change {
+      0% {
+        background-color: red;
+      }
+      25% {
+        background-color: black;
+      }
+      100% {
+        background-color:blue;
+      }
+     }
+   #box {
+     animation-name: color-change;
+     animation-duration: 20s;
+     }
+
+     .body {
+       background-color: blue;
+       animation-name: color-change;
+       animation-duration: 20s;
+     }
+
+     #movethis {
+       position: absolute;
+       left: 100px;
+       top: 150px;
+       animation-name: text-change;
+       animation-direction: reverse;
+     }
+  </style>
+</head>
+<body class="body">
+  <div id="box">
+    <p id="movethis"> There is nothing here </p>
+  </div>
+</body>
+</html>
