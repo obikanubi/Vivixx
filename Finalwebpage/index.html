@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Trevor Cruz</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+    $(function() {
+      $("#homebutton").click(function() {
+      $('html, body').animate({
+        scrollTop: $("#banner").offset().top
+      }, 1000);
+      });
+      $("#aboutbutton").click(function() {
+      $('html, body').animate({
+        scrollTop: $("#about").offset().top
+      }, 1000);
+      });
+      $("#educationbutton").click(function() {
+      $('html, body').animate({
+        scrollTop: $("#education").offset().top
+      }, 1000);
+      });
+      $("#portfoliobutton").click(function() {
+      $('html, body').animate({
+        scrollTop: $("#portfolion").offset().top
+      }, 1000);
+      });
+    });
+    </script>
+  </head>
+
+  <body>
+    <div id="container">
+      <header>
+        <p id="initials">TC</p>
+        <p id="name">Trevor Cruz</p>
+        <ul id="navbar">
+          <li><a href="#" id="homebutton">Home<a></li>
+          <li><a href="#" id="aboutbutton">About<a></li>
+          <li><a href="#" id="educationbutton">Education<a></li>
+          <li id="bottom-border"><a href="#" id="portfoliobutton">Portfolio<a></li>
+        </ul>
+      </header>
+      <div id="banner">
+      </div>
+      <section id="intro">
+        <div id="intro-inner">
+          <article id="info"><p>Live curious, learn ceaselessly, have fun, and share.</p></article>
+          <aside id="photowrapper"><img src="images/photo.jpg" id="photo"></aside>
+        </div>
+      </section>
+      <section id="about">
+        <div class="inner">
+          <p id="bio"> I am an aspiring programmer, who wants everything and anything that
+          has to do with tech. My interest in technology started in highschool when I discovered that I can learn photoshop on my own on the internet.
+          A few years later, I learned to build my own desktop. Unfortunately, I was a very shy teen so I decided to major in Communications and
+          set aside programming. I enjoyed learning so much in the University that I proceeded to get a Master's degree. Finally, here I am now,
+          in a coding bootcamp with new friends, learning how to create cool stuff with code.
+          </p>
+        </div>
+      </section>
+      <section id="education">
+        <div class="inner">
+          <div class="textwrapper">
+            <h3>Coding</h3>
+            <h4>Vivixx Academy (2017)</h4>
+            <p>A fast track coding bootcamp that is in partnership with Australia's Coder Academy providing students in-demand skills and knowledge in <thead>
+               tech industry.
+            </p>
+          </div>
+          <div class="textwrapper">
+            <h3>Graduate Studies</h3>
+            <h4>University of the Philippines (2011-2015)</h4>
+            <p>Masters of Management - Course focusing on strategic management, where I learned how to look at business related problems holistically -
+              analyzing all the functional areas of management such as finance, operations, human resources, and marketing to get a better understanding
+              of a company's SWOT. In this institution, I learned how to talk and do presentations in front of CEOs and experts from various industries.
+              I was also given the opportunity to join a business case competition with participants coming from various Asian universities. This course also
+              enabled me to create a business strategy for a medium sized real estate company.
+            </p>
+          </div>
+          <div class="textwrapper">
+            <h3>Undergraduate Studies</h3>
+            <h4>University of the Philippines (2005-2009)</h4>
+            <p>Speech Communication - This course instructed me on the different theories of communication. This is where I learned about
+              proxemics, chronemics, verbal and non-verbal communication, organizational communication and intercultural communication.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="portfolio">
+      </section>
+      <section id="interests">
+      </section>
+      <footer>
+        <div class="innerfooter">
+          <h3>Contact Me</h3>
+          <div id="iconwrapper">
+            <a href="#"><img src="images/facebook.png" class="icon"></a>
+            <a href="#"><img src="images/instagram.png" class="icon"></a>
+          </div>
+          <div id="forms">
+            <form action="#">
+              <div class="form">
+                <label for="firstname">First Name</label>
+                <input type="text" placeholder="Your first name..">
+              </div>
+              <div class="form">
+                <label for="lastname">Last Name</label>
+                <input type="text" placeholder="Your last name..">
+              </div>
+              <div class="form">
+                <label for="email">Email</label>
+                <input type="text" placeholder="Your email address..">
+              </div>
+              <div class="form">
+                <input type="submit" value="Submit">
+              </div>
+            </form>
+          </div>
+          <div id="iconm">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+          </div>
+        </div>
+      </footer>
+
+
+
+
+    </div> <!--container end-->
+  </body>
+</html>

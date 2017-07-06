@@ -1,0 +1,6 @@
+id,car_name,car_type,car_color,transmission,wheels,car_price,availability
+1,Camry,Sedan,Silver,Automatic,Standard,1000000,In Stock
+2,Corolla Altis,Sedan,Silver,Manual,Standard,900000,In Stock
+3,Vios,Sedan,Silver,Manual,Standard,850000,Order Now
+4,Wigo,Hatchback,Silver,Automatic,Standard,800000,Order Now
+5,Yaris,Hatchback,Silver,Automatic,Standard,0606020,In Stock
