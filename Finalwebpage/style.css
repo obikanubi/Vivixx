@@ -63,6 +63,13 @@ header {
   color: #0bab0d;
   text-decoration: underline;
 }
+#menuicon {
+  display: none;
+  color: white;
+  float: right;
+  font-size: 30px;
+  margin: 10px 10px;
+}
 /*-------header end------*/
 section {
   clear:both;
@@ -225,16 +232,24 @@ input[type=submit]:hover {
 /*-------responsive design start------*/
 @media screen and (max-width: 768px) {
   header {
-    position: absolute;
-    height: 100px;
+    position: fixed;
+    height: 50px;
     overflow: hidden;
   }
+  header:hover, header:hover #navbar {
+    height: 100px;
+    display: inline-block;
+  }
   #navbar {
+    display: none;
     width: 100%;
     margin: 0;
     border-top: 1px solid #a7a7a7;
     border-bottom: 1px solid #a7a7a7;
     padding: 13px 0 13px 10%;
+  }
+  #menuicon {
+    display: inline-block;
   }
   #banner {
     background-image: url(images/bulbs.jpeg);
@@ -270,11 +285,11 @@ input[type=submit]:hover {
 }
 @media screen and (max-width: 480px) {
   header {
-    position: absolute;
-    height: 139px;
+    position: fixed;
+    height: 50px;
   }
-  #navbar li:first-child {
-    display: none;
+  header:hover {
+    height: 167px;
   }
   #navbar {
     width: 100%;
@@ -300,12 +315,12 @@ input[type=submit]:hover {
   #banner {
     background-image: url(images/bulbss.jpeg);
     position: static;
-    height: 139px;
+    height: 167px;
     width: 100%;
     background-size: 480px;
   }
   #intro {
-    height: 350px;
+    height: 400px;
   }
   #info {
     height: 130px;
@@ -325,6 +340,10 @@ input[type=submit]:hover {
   }
   #about #bio {
     font-size: 120%;
+    padding: 40px 0 40px 0;
+  }
+  #education {
+    padding-top: 10px;
   }
   .inner {
     padding: 20px;
