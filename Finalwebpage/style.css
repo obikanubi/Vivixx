@@ -161,7 +161,72 @@ section {
 #education h3, #education h4, #education p {
   font-family: 'Lato', sans-serif;
 }
-/*-------footer start-------*/
+/*-------education end------*/
+#portfolio {
+  display: block;
+  background-color: #a7a7a7;
+  width: 100%;
+  height: auto;
+}
+.portfoliotitle {
+  height: 100px;
+  width: 100%;
+}
+.portfoliowrapper {
+  display: inline-block;
+  vertical-align:top;
+  width: 30%;
+}
+.portfoliowrapper h4 {
+  font-size: 120%;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+.portfoliowrapper p {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+#project-img1 {
+  width: 100%;
+  height: 200px;
+  background-image:url(images/namegen.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+#project-img2 {
+  width: 100%;
+  height: 200px;
+  background-image:url(images/intcal.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#project-img3 {
+  width: 100%;
+  height: 200px;
+  background-size: contain;
+  background-image:url(images/carshop.jpg);
+  background-repeat: no-repeat;
+}
+.buttoncontainer {
+  margin: 10px;
+}
+.button {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  max-width: 100px;
+  color: white;
+  padding: 5px;
+  background-color: #1c9409;
+  border-radius: 5px;
+  margin: 0 auto;
+  box-shadow: 1px 3px 2px rgba(0,0,0,.8);
+  font-family: 'Lato', sans-serif;
+}
+
+/*-------portfolio end-------*/
 .innerfooter {
   padding: 20px 20px 0 20px;
 }
@@ -228,7 +293,6 @@ input[type=submit]:hover {
 #iconm a:hover {
   color: #0bab0d;
 }
-
 /*-------responsive design start------*/
 @media screen and (max-width: 768px) {
   header {
@@ -282,6 +346,13 @@ input[type=submit]:hover {
   }
   #iconm, #iconm a {
     font-size: 80%;
+  }
+  .portfoliotitle h4 {
+    font-size: 100%;
+  }
+  .portfoliotitle p {
+    font-size: 80%;
+  }
 }
 @media screen and (max-width: 480px) {
   header {
@@ -357,5 +428,21 @@ input[type=submit]:hover {
   #education p {
     font-size: 90%;
     padding-left: 10px;
+  }
+  .portfoliowrapper {
+    width: 100%;
+  }
+  .portfoliotitle {
+    height: 70px;
+    margin: 10px;
+  }
+  #project-img1 {
+    background-size: auto;
+  }
+  #project-img2 {
+    background-size: auto;
+  }
+  #project-img3 {
+    background-size: auto;
   }
 }
